@@ -1,4 +1,4 @@
-import { ButtonFormLog } from "../../components/atoms/ButtonFormLog"
+import { Button } from "../../components/atoms/Button"
 import { InputText } from "../../components/molecules/InputText"
 import { Link } from "../../components/molecules/Link"
 import { Sidebar } from "../../components/organism/Sidebar"
@@ -16,7 +16,7 @@ export const Register = () => {
           <form className="flex flex-col w-full gap-4 max-w-xs">
             <InputText label="email" type="email" />
             <InputText label="senha" type="password" />
-            <ButtonFormLog  disabled>Criar Conta</ButtonFormLog>
+            <Button  disabled>Criar Conta</Button>
           </form>
           <Link href="/">Já possuo uma conta</Link>
         </MainHeroSection>
