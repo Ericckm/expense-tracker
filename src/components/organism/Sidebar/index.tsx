@@ -3,5 +3,5 @@ export const Sidebar = () => {
     <aside className="flex justify-center items-center">
       <img src="/main-pic.svg" alt="" />
     </aside>
-  )
-}
+  );
+};
