@@ -1,4 +1,4 @@
-# Expanse-tracker
+# Expanse tracker
 
 # Description
 Practicing purpose only.
